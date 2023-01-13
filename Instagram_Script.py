@@ -37,7 +37,7 @@ class Instagram:
         return driver
 
     def login_random_credential(self):
-        credential = [{'email': '', 'password': ''},]
+        credential = [{'email': '', 'password': ''},{'email': '', 'password': ''}]
         user_agent = random.choice(credential)
         return user_agent
 
